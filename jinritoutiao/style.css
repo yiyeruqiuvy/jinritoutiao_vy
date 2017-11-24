@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*main*/
+body{
+	margin: 0 auto;
+}
+#main{
+	width: 1536px;
+	height: 824px;
+	margin-left: auto;
+    margin-right:auto;
+    margin:0 auto; 
+}
+/*top*/
+#header{
+	background-color: #222222;
+	height: 36px;
+	width: 100%;
+	color: #fff;
+	font-style:14px; 
+	line-height: 36px;
+    
+}
+.h_z a{
+	color: #fff;
+	text-decoration: none;
+	font-style:14px; 
+	line-height: 36px;
+	text-align:center;
+	float: left;
+	cursor: pointer;
+}
+.h_z p{
+	display: inline-block;
+    margin-left: 2%;
+    float: left; 
+    cursor: pointer;   
+}
+.h_y a{
+    color: #fff;
+	text-decoration: none;
+	font-style:14px; 
+	line-height: 36px;
+	text-align:center;
+	float: right;
+	display: inline-block;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#header a.dl{
+	background-color:#ed4040;
+	padding-left:10px;
+	padding-right:10px;
+	cursor: pointer;
+}
+
+/*nav_l*/
+#nav_l{
+	font-size: 16px;
+    position: fixed;
+    left: 10%;
+    top: 40px;
+    min-width:12%;
+}
+#nav_l img{
+	width: 120px;
+	height: 40px;
+}
+#nav_l ul{
+    height: 533px;
+    width: 120px;
+}
+#nav_l li{
+	list-style: none;
+	height: 30px;
+	border-radius: 8%;
+	margin:5px 0;
+	padding: 3px 10px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+
+}
+li#l_2 a{
+	color: #ffffff;
+
+}
+#nav_l a{
+	text-decoration: none;
+	color: #000000;
+}
+li#l_2  {
+	background-color: #ed4040;
+}
+#nav_l ul :hover{
+	background-color:#ed4040;
+	color: #ffffff;
+}
+#nav_l ul :hover a{
+	color: #ffffff;
+}
+/*lunbotu*/
+#lunbotu{
+    z-index: 1;
+    left: 20%;
+    top: 2%;
+	width: 42%;
+	height: 300px;
+	background-color: #222;
+	color: #ffffff;
+	position: relative;
+}
+#lunbotu img{
+	width: 90%;
+	height: 300px;
+
+}
+.l_nav{
+	float: left;
+	position: absolute;
+}
+.l_nav ul{
+	position: absolute;
+    top: -304px;
+    right:-645px;
+	height: 304px;
+	width: 64px;
+}
+.l_nav li{
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom:19px; 
+	width: 64px;
+	list-style: none;
+	background-color:#222 ;
+}
+#area {  
+	z-index: 2;
+	position: absolute;
+	top: -388px;
+	left: 572px;
+    margin:100px auto;  
+    width:30px;   
+    height: 20px; 
+    overflow-y: hidden;  
+}  
+.item {  
+    float:left; clear:both;  
+    margin-bottom:23px;  
+} 
+.dot_left {  
+
+	margin-bottom: 29px;
+    font-size: 0;  
+    line-height: 0;  
+    border-width: 10px;  
+    border-color: #c53a3a;  
+    border-left-width: 0;  
+    border-style: dashed;  
+    border-right-style: solid;  
+    border-top-color: transparent;  
+    border-bottom-color: transparent;  
+}  
+.l_nav li.l_2{
+   background-color: #c53a3a;
+}
+/*sousuo*/
+#right-contain{
+	position: absolute;
+}
+.sousuo{
+	position: absolute;
+	width: 360px;
+	height: 40px;
+	left: 1000px;
+	top: -282px;
+	float: left;
+}
+.sousuo form{
+	height: 40px;
+	width: 360px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+input::-webkit-input-placeholder {
+	color: green;
+}
+.s_2:hover{
+	border:1px solid #208eda;
+}
+.s_2{
+	
+	background-color: #f5f6f7;
+    border-style: none;
+	width: 280px;
+	height: 40px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+.s_3{
+	top: 2px;
+	width: 70px;
+	height: 40px;
+	background-color: #208eda;
+	display: inline-block; 
+	border-style: none;
+	border-top-right-radius: 8%;
+	border-bottom-right-radius: 8%;
+	color: #fff;
+}
+/*jb*/
+.i_jb{
+	position: absolute;
+	top: 62px;
+	right: 0;
+	width: 360px;
+	height: 121px;
+}
+.i_ad{
+	position: absolute;
+	width: 360px;
+	height: 320px;
+	top:200px;
+}
+.new{
+		position: absolute;
+	top: 560px;
+	width: 360px;
+	height: 450px;
+	background-color: #f4f5f6; 
+}
+.n_r{
+	width: 360px;
+	height: 10px;
+	background-color: #ed4040;
+}
+.n_p{
+	text-align: center;
+
+	font-size: 28px;
+}
+/*mokuai*/
+.kk img{
+	 position: absolute;
+   	left: 20px;
+	width: 60px;
+	height: 60px;
+}
+.kk h4{
+	position: absolute;
+	right: 30px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.fen_1{
+   position: absolute;
+   top: 120px;
+   width: 100%;
+   height: 1px;
+   background-color:red;
+   z-index: 2;
+   display: inline-block;
+}
+.fen_2{
+   position: absolute;
+   top: 225px;
+   width: 100%;
+   height: 1px;
+   background-color:red;
+   z-index: 2;
+   display: inline-block;
+}
+.fen_3{
+   position: absolute;
+   top: 325px;
+   width: 100%;
+   height: 1px;
+   background-color:red;
+   z-index: 2;
+   display: inline-block;
+}
+.fen_4{
+   position: absolute;
+   top: 425px;
+   width: 100%;
+   height: 1px;
+   background-color:red;
+   z-index: 2;
+   display: inline-block;
+}
+.kk{
+	margin-bottom: 10px;
+	width: 360px;
+	height: 90px;
+}
