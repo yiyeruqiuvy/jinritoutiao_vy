@@ -106,27 +106,36 @@ li#l_2  {
     z-index: 1;
     left: 20%;
     top: 2%;
-	width: 42%;
+	width: 651px;
 	height: 300px;
 	background-color: #222;
 	color: #ffffff;
 	position: relative;
+	border: none;
+	overflow: hidden;
+}
+#lunbotu .img{
+	width: 587px;
+	height: 2400px;
+	position: absolute;
+	
 }
 #lunbotu img{
-	width: 90%;
+	float: left;
+	width:587px;
 	height: 300px;
-
+	
 }
 .l_nav{
 	float: left;
-	position: absolute;
+	position: relative;
 }
 .l_nav ul{
-	position: absolute;
-    top: -304px;
-    right:-645px;
-	height: 304px;
-	width: 64px;
+    position: relative;
+    top: 0;
+    right: -587px;
+    height: 304px;
+    width: 64px;
 }
 .l_nav li{
 	text-align: center;
@@ -139,15 +148,20 @@ li#l_2  {
 	background-color:#222 ;
 }
 #area {  
-	z-index: 2;
-	position: absolute;
-	top: -388px;
-	left: 572px;
-    margin:100px auto;  
-    width:30px;   
-    height: 20px; 
-    overflow-y: hidden;  
+    z-index: 2;
+    position: absolute;
+    top: -84px;
+    left: 577px;
+    margin: 100px auto;
+    width: 30px;
+    height: 20px;
+     
 }  
+#area .s1{
+	border-color: #c53a3a; 
+    border-top-color: transparent;  
+    border-bottom-color: transparent;  
+}
 .item {  
     float:left; clear:both;  
     margin-bottom:23px;  
@@ -158,14 +172,14 @@ li#l_2  {
     font-size: 0;  
     line-height: 0;  
     border-width: 10px;  
-    border-color: #c53a3a;  
+    border-color: rgba(0,0,0,0); 
     border-left-width: 0;  
     border-style: dashed;  
     border-right-style: solid;  
     border-top-color: transparent;  
     border-bottom-color: transparent;  
 }  
-.l_nav li.l_2{
+.l_nav li.u2{
    background-color: #c53a3a;
 }
 /*sousuo*/
